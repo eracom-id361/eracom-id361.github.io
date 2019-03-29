@@ -1,3 +1,63 @@
+@charset "UTF-8";
+/*
+Theme Name: 361 degrees
+Theme URI: https://github.com/eracom-id361/id361-superheros
+GitHub Theme URI: https://github.com/eracom-id361/id361-superheros
+Author: ID361
+Author URI:
+Template: atomic-blocks
+Description: Theme pour le site Super-héros
+Version: 0.0.1+build201903291628
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+@font-face {
+  font-family: 'Courier Prime';
+  font-weight: 400;
+  font-style: normal;
+  src: url("fonts/cp/regular.woff2") format("woff2"), url("fonts/cp/regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  font-weight: 700;
+  font-style: normal;
+  src: url("fonts/cp/bold.woff2") format("woff2"), url("fonts/cp/bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  font-weight: 400;
+  font-style: italic;
+  src: url("fonts/cp/italic.woff2") format("woff2"), url("fonts/cp/italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Courier Prime';
+  font-weight: 700;
+  font-style: italic;
+  src: url("fonts/cp/bold_italic.woff2") format("woff2"), url("fonts/cp/bold_italic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Falcon Punch';
+  font-weight: 400;
+  font-style: normal;
+  src: url("fonts/fp/regular.woff2") format("woff2"), url("fonts/fp/regular.woff") format("woff");
+}
+
+body, .site, .site-header {
+  font-family: 'Courier Prime', Courier, monospace;
+}
+
+h1, h2, h3, h4, h5, h6, .entry-title,
+.entry-content h2,
+.site-header {
+  font-family: 'Falcon Punch', Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Variables
 * ===============
 *
@@ -11,11 +71,19 @@
   width: 49%;
 }
 
+.visual h1 {
+  font-size: 24px;
+}
+
 .web {
   display: inline-block;
   background-color: blue;
   height: 100vh;
   width: 49%;
+}
+
+.web h1 {
+  font-size: 24px;
 }
 
 /*# sourceMappingURL=style.css.map */

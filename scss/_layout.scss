@@ -3,6 +3,10 @@
     background-color: red;
     height: 100vh;
     width:49%;
+
+    h1 {
+        font-size: $font-size-h1;
+    }
 }
 
 .web {
@@ -10,4 +14,8 @@
     background-color: blue;
     height: 100vh;
     width:49%;
+
+    h1 {
+        font-size: $font-size-h1;
+    }
 }
