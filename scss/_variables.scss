@@ -1,0 +1,28 @@
+/* Variables
+* ===============
+*
+* All variables and most of the configuration is defined on this page. */
+
+/* colors */
+
+$gutter-color : rgba(252, 173, 94, 0);
+$blue         : #182CFF;
+$yellow       : #FEBC0A;
+$pink         : #FF7467;
+$black        : #000000;
+$dark-grey    : #414141;
+$medium-grey  : #9D9D9D;
+$light-grey   : #EFEFEF;
+$white        : #FFFFFF;
+
+/* typography */
+
+$font-family-primary  : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-secondary: 'Noto Serif JP', serif;
+$font-size-base       : 14px;
+$line-height-base     : 1.4;
+$font-weight-base     : 400;
+
+$font-size-h1         : 24px;
+$font-size-h2         : 20px;
+$font-size-h3         : 14px;
