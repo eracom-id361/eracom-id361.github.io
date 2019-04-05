@@ -36,7 +36,7 @@ gulp.task('minify-css', () => {
       suffix: '.min'
     }))
     .pipe(sourcemaps.write())
-    .pipe(gulp.dest('assets/css/min'));
+    .pipe(gulp.dest('assets/css/*.min'));
 });
 
 // Optimizing Images

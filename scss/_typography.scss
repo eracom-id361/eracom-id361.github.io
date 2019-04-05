@@ -15,51 +15,53 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     font-family: 'Courier Prime';
     font-weight: 400;
     font-style: normal;
-    src: url('fonts/cp/regular.woff2') format('woff2'),
-         url('fonts/cp/regular.woff') format('woff');
+    src: url('../assets/fonts/cp/regular.woff2') format('woff2'),
+         url('../assets/fonts/cp/regular.woff') format('woff');
   }
   
   @font-face {
     font-family: 'Courier Prime';
     font-weight: 700;
     font-style: normal;
-    src: url('fonts/cp/bold.woff2') format('woff2'),
-         url('fonts/cp/bold.woff') format('woff');
+    src: url('../assets/fonts/cp/bold.woff2') format('woff2'),
+         url('../assets/fonts/cp/bold.woff') format('woff');
   }
   
   @font-face {
     font-family: 'Courier Prime';
     font-weight: 400;
     font-style: italic;
-    src: url('fonts/cp/italic.woff2') format('woff2'),
-         url('fonts/cp/italic.woff') format('woff');
+    src: url('../assets/fonts/cp/italic.woff2') format('woff2'),
+         url('../assets/fonts/cp/italic.woff') format('woff');
   }
   
   @font-face {
     font-family: 'Courier Prime';
     font-weight: 700;
     font-style: italic;
-    src: url('fonts/cp/bold_italic.woff2') format('woff2'),
-         url('fonts/cp/bold_italic.woff') format('woff');
+    src: url('../assets/fonts/cp/bold_italic.woff2') format('woff2'),
+         url('../assets/fonts/cp/bold_italic.woff') format('woff');
   }
   @font-face {
     font-family: 'Falcon Punch';
     font-weight: 400;
     font-style: normal;
-    src: url('fonts/fp/regular.woff2') format('woff2'),
-         url('fonts/fp/regular.woff') format('woff');
+    src: url('../assets/fonts/fp/regular.woff2') format('woff2'),
+         url('../assets/fonts/fp/regular.woff') format('woff');
   }
-  body, .site, .site-header {
-      font-family: 'Courier Prime', Courier, monospace;
-  }
+
+  
+//   body, .site, .site-header {
+//       font-family: 'Courier Prime', Courier, monospace;
+//   }
   
   
-  h1, h2, h3, h4, h5, h6, .entry-title,
-  .entry-content h2,
-  .site-header
-  {
-      font-family: 'Falcon Punch', Arial, sans-serif;
-      font-weight: 400;
-      font-style: normal;
-  }
+//   h1, h2, h3, h4, h5, h6, .entry-title,
+//   .entry-content h2,
+//   .site-header
+//   {
+//       font-family: 'Falcon Punch', Arial, sans-serif;
+//       font-weight: 400;
+//       font-style: normal;
+//   }
   
