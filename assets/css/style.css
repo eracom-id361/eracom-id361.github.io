@@ -15,35 +15,35 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
   font-family: 'Courier Prime';
   font-weight: 400;
   font-style: normal;
-  src: url("../assets/fonts/cp/regular.woff2") format("woff2"), url("../assets/fonts/cp/regular.woff") format("woff");
+  src: url("../fonts/cp/regular.woff2") format("woff2"), url("../fonts/cp/regular.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Courier Prime';
   font-weight: 700;
   font-style: normal;
-  src: url("../assets/fonts/cp/bold.woff2") format("woff2"), url("../assets/fonts/cp/bold.woff") format("woff");
+  src: url("../fonts/cp/bold.woff2") format("woff2"), url("../fonts/cp/bold.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Courier Prime';
   font-weight: 400;
   font-style: italic;
-  src: url("../assets/fonts/cp/italic.woff2") format("woff2"), url("../assets/fonts/cp/italic.woff") format("woff");
+  src: url("../fonts/cp/italic.woff2") format("woff2"), url("../fonts/cp/italic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Courier Prime';
   font-weight: 700;
   font-style: italic;
-  src: url("../assets/fonts/cp/bold_italic.woff2") format("woff2"), url("../assets/fonts/cp/bold_italic.woff") format("woff");
+  src: url("../fonts/cp/bold_italic.woff2") format("woff2"), url("../fonts/cp/bold_italic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Falcon Punch';
   font-weight: 400;
   font-style: normal;
-  src: url("../assets/fonts/fp/regular.woff2") format("woff2"), url("../assets/fonts/fp/regular.woff") format("woff");
+  src: url("../fonts/fp/regular.woff2") format("woff2"), url("../fonts/fp/regular.woff") format("woff");
 }
 
 /* Variables
@@ -58,59 +58,73 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 #container a h1 {
   position: relative;
-  top: 50%;
+  top: 20%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -20%);
+  transform: translate(-50%, -20%);
   color: #000000;
   font-family: "Falcon Punch", sans-serif;
-  font-size: 24px;
+  font-size: 34px;
   text-decoration: none;
   text-align: center;
 }
 
-#container .visual {
+#container #visual {
   box-sizing: border-box;
   float: left;
+  background-image: url("../img/visual_league.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
   background-color: #000000;
   height: 100vh;
   width: 50%;
   border-right: 1.5px solid #00FF00;
 }
 
-#container .visual h1 {
+#container #visual h1 {
   color: #00FF00;
 }
 
-#container .visual img {
+#container #visual img {
   position: absolute;
-  top: 50%;
+  top: 20%;
   left: 47.5%;
-  -ms-transform: translate(-47.5%, -50%);
-  transform: translate(-47.5%, -50%);
+  -ms-transform: translate(-47.5%, -20%);
+  transform: translate(-47.5%, -20%);
   width: 5%;
 }
 
-#container .web {
+#container #web {
   box-sizing: border-box;
   float: left;
+  background-image: url("../img/websquad.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
   background-color: #000000;
   height: 100vh;
   width: 50%;
   border-left: 1.5px solid #00FF00;
+  transition: transform 0.3s;
 }
 
-#container .web h1 {
+#container #web h1 {
   color: #00FF00;
 }
 
-#container .web img {
+#container #web img {
   position: absolute;
-  top: 50%;
-  right: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  top: 20%;
+  right: 43%;
+  -ms-transform: translate(-43%, -20%);
+  transform: translate(-43%, -20%);
   width: 5%;
+}
+
+#container #web.open {
+  -ms-transform: translateX(45vw);
+  transform: translateX(45vw);
 }
 
 /*# sourceMappingURL=style.css.map */

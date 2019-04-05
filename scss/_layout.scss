@@ -5,8 +5,8 @@
 
         h1 {
             position: relative;
-            top: 50%; left: 50%;
-            transform: translate(-50%,-50%);
+            top: 20%; left: 50%;
+            transform: translate(-50%,-20%);
             color: $black;
             font-family: $font-family-title;
             font-size: $font-size-h1;
@@ -16,9 +16,13 @@
     }
 
 
-    .visual {
+    #visual {
         box-sizing: border-box;
         float: left;
+        background-image: url('../img/visual_league.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom; 
         background-color: $black;
         height: 100vh;
         width:50%;
@@ -31,20 +35,25 @@
 
         img {
             position: absolute;
-            top: 50%; left: 47.5%;
-            transform: translate(-47.5%,-50%);
+            top: 20%; left: 47.5%;
+            transform: translate(-47.5%,-20%);
             width: 5%;
         }
     
     }
     
-    .web {
+    #web {
         box-sizing: border-box;
         float: left;
-        background-color: $black ;
+        background-image: url('../img/websquad.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: bottom; 
+        background-color: $black;
         height: 100vh;
         width:50%;
         border-left: 1.5px solid $green;
+        transition: transform 0.3s;
 
         h1 {
             color: $green;
@@ -52,9 +61,13 @@
 
         img {
             position: absolute;
-            top: 50%; right: 50%;
-            transform: translate(-50%,-50%);
+            top: 20%; right: 43%;
+            transform: translate(-43%,-20%);
             width: 5%;
+        }
+
+        &.open {
+            transform: translateX(45vw);
         }
 
     }
