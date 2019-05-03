@@ -52,11 +52,15 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 * All variables and most of the configuration is defined on this page. */
 /* colors */
 /* typography */
+body {
+  background: black;
+}
+
 #container a {
   text-decoration: none;
 }
 
-#container a h1 {
+#container h1 {
   position: relative;
   top: 20%;
   left: 50%;
@@ -69,24 +73,30 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
   text-align: center;
 }
 
-#container #visual {
+#container #visual,
+#container #web {
   box-sizing: border-box;
   float: left;
-  background-image: url("../img/visual_league.svg");
+  background-color: #000000;
+  min-height: 100vh;
+  width: 50%;
+}
+
+#container #visual {
+
+  /* background-image: url("../img/visual_league.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom;
-  background-color: #000000;
-  height: 100vh;
-  width: 50%;
+  background-position: bottom; */
   border-right: 1.5px solid #00FF00;
 }
 
-#container #visual h1 {
+#container h1 {
   color: #00FF00;
+  margin-top: 2em;
 }
 
-#container #visual img {
+#container #visual img.logo {
   position: absolute;
   top: 20%;
   left: 47.5%;
@@ -96,24 +106,16 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 }
 
 #container #web {
-  box-sizing: border-box;
-  float: left;
-  background-image: url("../img/websquad.svg");
+ 
+  /* background-image: url("../img/websquad.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: bottom;
-  background-color: #000000;
-  height: 100vh;
-  width: 50%;
+  background-position: bottom; */
   border-left: 1.5px solid #00FF00;
   transition: transform 0.3s;
 }
 
-#container #web h1 {
-  color: #00FF00;
-}
-
-#container #web img {
+#container #web img.logo {
   position: absolute;
   top: 20%;
   right: 43%;
@@ -125,6 +127,29 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 #container #web.open {
   -ms-transform: translateX(45vw);
   transform: translateX(45vw);
+}
+
+.grille-persos {
+  margin: 6em auto 0 auto;
+  width: 100%;
+}
+
+.grille-persos li {
+  float: left;
+  margin: 1em;
+}
+
+#web .grille-persos li {
+  float: right;
+}
+
+.grille-persos a {
+  border: 3px solid #00FF00;
+  width: 150px;
+  height: 150px;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
