@@ -2,12 +2,17 @@
 
 Liste des sites:
 
-- https://uxs.lazzzirene.com/
-- https://super.aberoud.ch/
-- https://dn.calvinherizo.ch/
-- https://me.eskappade.com/
-- https://super.t--m.ch/
-- http://super.ynot.pictures/
-- http://super.ainart.ch/
-- https://reginarobert.ch/biographie/
-- https://super.jeanneweber.ch/
+## Visual League
+
+- https://super.aberoud.ch/ - Blackmagik
+- https://me.eskappade.com/ - Mega Encoder
+- https://reginarobert.ch/biographie/ - PerchWoman
+- https://super.t--m.ch/ - Claptain
+- Thunderbold
+
+## Web Squad
+- https://uxs.lazzzirene.com/ - UX Sista
+- https://super.jeanneweber.ch/ - UI Sista
+- https://dn.calvinherizo.ch/ - DarkNode
+- http://super.ynot.pictures/ - Le Monteur
+- http://super.ainart.ch/ - Inspector Sass
